@@ -1,7 +1,7 @@
 import React from 'react'
 import Conditional from '../basics/Conditional'
-// import Images from "../basics/Images";
-// import Card from '../basics/Card';
+import Images from "../basics/Images";
+import Card from '../basics/Card';
 import Form from "../basics/Form";
 import Table from "../basics/Table";
 import MultipleComponents from '../basics/MultipleComponents';
@@ -12,14 +12,13 @@ function Basics() {
 
     return (
         <div>
-            {/* <Images /> */}
-            {/* <Card /> */}
-
-            {/* <Form /> */}
-            {/* <Table /> */}
-            {/* <MultipleComponents /> */}
-            {/* <Props /> */}
-            {/* <Conditional /> */}
+            <Images />
+            <Card />
+            <Form />
+            <Table />
+            <MultipleComponents />
+            <Props />
+            <Conditional />
         </div>
     )
 }
